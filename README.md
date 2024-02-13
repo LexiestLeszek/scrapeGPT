@@ -11,6 +11,7 @@ ScrapeGPTbot is a Telegram bot designed to scrape and analyze websites, then ans
 - **Robots.txt Parsing**: Respects website's robots.txt to avoid scraping restricted areas.
 - **Database Management**: Stores scraped content in a database for future reference and quick access.
 - **Proxy Support**: Uses rotating proxies to bypass geo-restrictions and anonymize requests.
+- **LLM-based**: Supports both public and local LLMs.
 
 ## Getting Started
 
