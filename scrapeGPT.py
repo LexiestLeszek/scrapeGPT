@@ -255,7 +255,7 @@ def analyze_website(start_url):
     
     return all_scraped_texts
 
-# Replace YOUR_TELEGRAM_BOT_TOKEN with your actual bot token
+# Replace with your actual bot token
 API_TOKEN = ""
 
 # Initialize bot and dispatcher
