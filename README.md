@@ -1,7 +1,7 @@
 # ScrapeGPT 
 ## Telegram Bot for Web Content Analysis and Question Answering
 
-ScrapeGPTbot is a Telegram bot designed to scrape and analyze websites, then answer questions based on the scraped content. The bot utilizes advanced natural language processing techniques to provide accurate responses to user queries.
+ScrapeGPT is a Telegram bot designed to scrape and analyze websites, then answer questions based on the scraped content. The bot utilizes advanced natural language processing techniques to provide accurate responses to user queries.
 
 ## Features
 
@@ -20,7 +20,7 @@ To get started with the bot, follow these steps:
 1. Clone the repository to your local machine:
 ```bash
 git clone https://github.com/LexiestLeszek/scrapeGPT.git
-cd scrapeGPTbot
+cd scrapeGPT
 ```
 2. Install the required dependencies:
 ```bash
