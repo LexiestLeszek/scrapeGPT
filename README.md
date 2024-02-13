@@ -57,7 +57,7 @@ This project is licensed under the terms of the MIT license. See the LICENSE fil
 
 If you have any questions or suggestions, feel free to open an issue on GitHub.
 
-## No liability
+## No liability for the Developer
 
 - Usage of this software for attacking targets without prior mutual consent is illegal.
 - It is the end user's responsibility to obey all applicable local, state and federal laws.
