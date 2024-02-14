@@ -48,14 +48,13 @@ def save_to_db(text, url):
 
 
 # Get context from question and txt file
-def get_context(question,text):
-    print("Starting embedding model ...")
+def get_context(question,text,chunk_size=500,chunk_overlap=100):
+    print("Embedding model started ...")
     all_scraped_text = text
     
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size,chunk_overlap=chunk_overlap)
     documents = text_splitter.split_text(all_scraped_text)
     embeddings = HuggingFaceEmbeddings(model_name = 'sentence-transformers/all-MiniLM-L6-v2')
-
     db = Chroma.from_texts(documents, embedding=embeddings)
     retriever = db.as_retriever(search_kwargs={"k": 3})
     
