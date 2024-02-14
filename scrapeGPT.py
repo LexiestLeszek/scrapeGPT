@@ -155,7 +155,6 @@ def scrape_site_links(start_url, proxy):
 
     return visited_links
 
-
 def generate_answer_local(question,context):
     print("LLM is generating answer ...")
 
@@ -227,8 +226,6 @@ def generate_answer_pplx(question,context):
     
     return answer
 
-
-
 def analyze_website(start_url):
     
     with open('db.json', 'r') as file:
@@ -282,7 +279,7 @@ async def process_message(message: types.Message):
         
     elif state == 'ready_to_chat':
         context = get_context(message.text, state_storage[chat_id]['website_text'])
-        response = generate_answer_pplx(message.text, context)
+        response = generate_answer_local(message.text, context)
         await message.reply(response)
 
 if __name__ == '__main__':
