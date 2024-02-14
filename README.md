@@ -16,6 +16,7 @@ Note: You don't have to use it as a Telegram bot, at the very end of the code bl
 - **LLM-based**: Supports both public and local LLMs.
 
 ## Getting Started
+### Installation
 
 To get started with the bot, follow these steps:
 
@@ -40,7 +41,7 @@ ollama pull qwen:1.8b
 python scrapeGPT.py
 ```
 
-## Usage
+### Usage
 
 Once the bot is running, interact with it on Telegram:
 
