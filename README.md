@@ -28,8 +28,14 @@ cd scrapeGPT
 ```bash
 pip install -r requirements.txt
 ```
-3. Set up your Telegram bot by obtaining a token from the [BotFather](https://core.telegram.org/bots#botfather), replace `API_TOKEN` in the script with your actual token and don't forget bot's telegram nickname.
-4. Run the bot server script:
+3. Go to ollama.com and download it
+4. download local model:
+```bash
+ollama pull qwen:1.8b
+```
+5. Set up your Telegram bot by obtaining a token from the [BotFather](https://core.telegram.org/bots#botfather).
+6. Replace `API_TOKEN` in the script with your actual token and don't forget bot's telegram nickname.
+7. Run the bot server script:
 ```bash
 python scrapeGPT.py
 ```
