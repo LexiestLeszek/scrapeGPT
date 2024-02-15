@@ -6,7 +6,7 @@ ScrapeGPT is a Telegram bot designed to scrape and analyze websites, then answer
 Note:
 
 *You don't have to use it as a Telegram bot, at the very end of the scrapeGPT.py there is a commented main() function to use it in CLI.*
-*Also, there is a gradio_version.py file, where the same functionality is implemented in the form of Gradio app and using qDrant VectorDB, Ollama and GPT4ALLEmbeddings.*
+*Also, there is an experimental file called gradio_version.py, where the same functionality is implemented in the form of Gradio app and using qDrant VectorDB, Ollama and GPT4ALLEmbeddings.*
 
 ## Features
 
