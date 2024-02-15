@@ -6,4 +6,4 @@ langchain_community==0.0.19
 ollama==0.1.6
 PyPDF2==3.0.1
 Requests==2.31.0
-streamlit==1.27.2
+gradio==4.19.0
