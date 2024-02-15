@@ -15,7 +15,7 @@ from langchain.pydantic_v1 import BaseModel
 from langchain.schema.output_parser import StrOutputParser
 from langchain.schema.runnable import RunnableParallel, RunnablePassthrough
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import GPT4AllEmbeddings
+from langchain_community.embeddings import GPT4AllEmbeddings, HuggingFaceEmbeddings
 
 # Proxy init
 def get_proxy():
@@ -151,7 +151,7 @@ def ask_questions(question_text):
         
         qdrant = Qdrant.from_documents(
             documents=paper_chunks,
-            embedding=GPT4AllEmbeddings(),
+            embedding=HuggingFaceEmbeddings(model_name = 'sentence-transformers/all-MiniLM-L6-v2'),
             path="./tmp/local_qdrant",
             collection_name="data",
         )
