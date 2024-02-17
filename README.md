@@ -3,9 +3,11 @@
 
 ScrapeGPT is a Telegram bot designed to scrape and analyze websites, then answer questions based on the scraped content. The bot utilizes advanced natural language processing techniques to provide accurate responses to user queries.
 
+The idea came from the job interview question when I was given an assignment to "study our company website and provide new product recommendations"> I decided to automate the process of studying a whole website and made ScrapeGPT.
+
 Note:
 
-*You don't have to use it as a Telegram bot, at the very end of the scrapeGPT.py there is a commented main() function to use it in CLI.*
+*You don't have to use it as a Telegram bot, at the very end of the scrapeGPT.py there is a commented main() function to use it as CLI.*
 *Also, there is an experimental file called scrapeGPT_gradio_app.py, where the same functionality is implemented in the form of Gradio app and using qDrant VectorDB, Ollama and GPT4ALLEmbeddings.*
 
 ## Features
